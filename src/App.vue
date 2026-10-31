@@ -1,0 +1,26 @@
+<script setup lang="ts">
+// 移除默認的 HelloWorld 組件
+</script>
+
+<template>
+  <router-view />
+</template>
+
+<style>
+/* 全局樣式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+#app {
+  height: 100vh;
+  overflow-x: hidden;
+}
+</style>
